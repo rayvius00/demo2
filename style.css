@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header {
+    background-color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    gap: 5px;
+}
+.submit {
+    position: absolute;
+    right: 150px;
+    height: 45px;
+    width: 150px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+}
+.signin {
+    position: absolute;
+    right: 20px;
+    width: 100px;
+    height: 45px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border: 1px solid blue;
+    font-size: medium;
+}
+p {
+    font-size: xx-large ;
+    font-weight: 300;
+}
+h2 {
+    font-weight: bold;
+}
+.quest {
+    background-color: #cfd1f7;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+    padding-bottom: 60px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 400;
+}
+input {
+    width: 360px;
+    height: 40px;
+}
+.input {
+    position: relative;
+}
+h6 {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    font-size: larger;
+    font-weight: 700;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+.container {
+    padding: 150px;
+    display: flex;
+    gap: 40px;
+}
+.row {
+    gap: 40px;
+}
+.box {
+    display: flex;
+    padding: 50px;
+    gap: 20px;
+}
+.q {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer {
+    background-color: black;
+    display: flex;
+    gap: 200px;
+    color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+    position: relative;
+}
+.footer2 {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+p {
+    font-size: small;
+}
